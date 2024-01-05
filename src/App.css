@@ -1,0 +1,16 @@
+ @import url('https://fonts.googleapis.com/css2?family=Tektur&display=swap');
+
+ .id1 {
+   font-family: 'Tektur', sans-serif;
+   color: "#F9F9F9"
+ }
+
+ .main {
+   padding: 3%;
+
+ }
+
+ .main h1 {
+   text-align: center;
+   padding-bottom: 20px;
+ }

@@ -1,0 +1,74 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 60px;
+}
+
+.grid-item {
+    border: 1px solid #ddd;
+    height: 200px;
+    padding: 20px;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    box-shadow: 0 8px 8px rgba(192, 192, 192, 0.4), 0 0 20px rgba(192, 192, 192, 1);
+    transition: all 0.3s ease;
+
+}
+
+
+
+.grid-item:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 8px rgba(0, 0, 0, 0.2);
+}
+
+.modal-content {
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    height: 60%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    object-fit: contain;
+
+}
+
+.modal-content button {
+    align-content: center;
+    width: 10%;
+    margin-left: 45%;
+}
+
+.modal-content p {
+    margin: 0%;
+}
+
+.modal-background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+.image {
+    object-fit: contain;
+    width: 100%;
+    height: 70%;
+}
+
+.image1 {
+    object-fit: contain;
+    width: 100%;
+    height: 65%;
+}
